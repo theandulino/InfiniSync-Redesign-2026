@@ -35,26 +35,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <?php include '../../data/php/meta.php';?>
-    <title>InfiniSync - Nahtlose Datenverwaltung und Synchronisierung</title>   
-</head>
-<body>
-<?php include '../../data/php/topnav.php';?>
-<div class="main">
-    <div class="register">
-        <h1>Registrieren</h1>
-        <form action="index.php" method="post">
-            <label for="username">Benutzername:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="password">Passwort:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" value="Registrieren">
-        </form>
-        <p>Bereits ein Konto? <a href="/account/login">Hier einloggen</a></p>
-    </div>
-</div>
-</body>
+    <head>
+        <?php include '../../data/php/meta.php';?>
+        <title>InfiniSync - Nahtlose Datenverwaltung und Synchronisierung</title>   
+    </head>
+    <body>
+        <?php include '../../data/php/topnav.php';?>
+        <div class="main w-50">
+            <div class="account">
+                <div class="register">
+                    <h1>Registrieren</h1>
+                    <form action="index.php" method="post">
+                        <label for="username">Benutzername:</label>
+                        <input type="text" id="username" name="username" required><br><br>
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="password">Passwort:</label>
+                        <input type="password" id="password" name="password" required><br><br>
+                        <input type="submit" value="Registrieren">
+                    </form>
+                    <p>Bereits ein Konto? <a href="/account/login">Hier einloggen</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

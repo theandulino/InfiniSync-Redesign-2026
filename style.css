@@ -278,6 +278,70 @@ audio {
   text-decoration: underline;
 }
 
+.account .register {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.account .register h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-color-light);
+}
+
+.account .register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.account .register label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: var(--text-color-light);
+  font-size: 16px;
+}
+
+.account .register input[type="text"],
+.account .register input[type="password"],
+.account .register input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: var(--font);
+}
+
+.account .register input[type="submit"] {
+  padding: 10px;
+  background-color: var(--btn-color-light);
+  color: var(--btn-text-color-light);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: var(--font);
+}
+
+.account .register input[type="submit"]:hover {
+  background-color: var(--topnav-a-hover-color-light);
+}
+
+.account .register p {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-color-light);
+}
+
+.account .register a {
+  color: var(--topnav-a-active-color-light);
+  text-decoration: none;
+}
+
+.account .register a:hover {
+  text-decoration: underline;
+}
+
 .upload-container {
   width: 100%;
   max-width: 100%;

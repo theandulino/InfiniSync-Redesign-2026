@@ -12,7 +12,26 @@
         <h1>InfiniSync</h1>
     </div>
     <div class="content">
-        <p>InfiniSync ist eine innovative Plattform, die es Benutzern ermöglicht, ihre Daten nahtlos zu synchronisieren und zu verwalten. Mit InfiniSync können Sie Ihre Dateien, Fotos, Musik und andere wichtige Informationen sicher in der Cloud speichern und von überall aus darauf zugreifen. Unsere benutzerfreundliche Oberfläche und fortschrittlichen Funktionen machen es einfach, Ihre Daten zu organisieren und zu teilen. Egal, ob Sie ein Einzelperson oder ein Unternehmen sind, InfiniSync bietet die perfekte Lösung für Ihre Synchronisierungsbedürfnisse.</p>
+        <section>
+            <h1>Willkommen bei InfiniSync</h1>
+            <p>Bald können sie auf InfiniSync zugreifen und ihre Daten nahtlos synchronisieren.</p>
+        </section><br><br><hr><br><br>
+        <section>
+            <h2>Ihre Daten, überall und sicher</h2>
+            <p>InfiniSync verwandelt Ihre digitale Welt in einen Ort, an dem Dateien, Fotos, Musik und Dokumente sicher verwaltet werden. Unsere Plattform verbindet Geräte und Cloud-Speicher nahtlos, sodass Sie jederzeit und von jedem Gerät aus auf alles zugreifen können.</p>
+        </section><br>
+        <section>
+            <h2>Intuitive Bedienung</h2>
+            <p>Unsere benutzerfreundliche Oberfläche wurde entwickelt, um Ihnen die Verwaltung Ihrer Inhalte so leicht wie möglich zu machen. Mit klaren Menüs, schnellen Suchfunktionen und einfacher Freigabe behalten Sie stets den Überblick über Ihre wichtigsten Daten.</p>
+        </section><br>
+        <section>
+            <h2>Für alle Einsatzzwecke</h2>
+            <p>Ob für private Nutzer, kreative Köpfe oder Unternehmen: InfiniSync bietet flexible Lösungen für individuelle Anforderungen. Organisieren Sie Projekte, teilen Sie Dateien mit anderen oder sichern Sie Ihre Erinnerungen zuverlässig in der Cloud.</p>
+        </section><br>
+        <section>
+            <h2>Blick in die Zukunft</h2>
+            <p>Demnächst erweitern wir InfiniSync um neue spannende Funktionen: ein Forum für den Austausch, einen Radio-Livestream, einen Bild-Hosting-Dienst und einen Link-Shortener. Bleiben Sie gespannt auf weitere Updates und neue Möglichkeiten, Ihre digitale Welt noch effizienter zu gestalten.</p>
+        </section>
     </div>
 </div>
 <?php include 'data/php/footer.php';?>
